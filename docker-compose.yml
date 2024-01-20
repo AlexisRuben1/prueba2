@@ -18,7 +18,7 @@ services:
     env_file:
       - .env
     environment:
-      MYSQL_DATABASE: $DB_DATABASE
+      MYSQL_DATABASE: $DB_DATABAS
       MYSQL_ROOT_PASSWORD: $DB_PASSWORD
     networks:
       - app-network
